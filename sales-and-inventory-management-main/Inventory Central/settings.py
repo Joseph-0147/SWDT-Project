@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'django_filters',
     'django_tables2',
+    
 
     'store.apps.StoreConfig',
     'accounts.apps.AccountsConfig',
@@ -52,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'InventoryMS.urls'
+ROOT_URLCONF = 'Inventory Central.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'InventoryMS.wsgi.application'
+WSGI_APPLICATION = 'Inventory Central.wsgi.application'
 
 
 # Database
